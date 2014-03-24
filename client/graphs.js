@@ -19,4 +19,4 @@ Grapher.Graphs = {
   change_current: function (graph) {
     Session.set("current_graph", graph);
   }
-}
+};
