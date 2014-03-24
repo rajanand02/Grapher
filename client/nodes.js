@@ -14,7 +14,7 @@ Grapher.Nodes = {
   },
   move: function (node, new_position) {
     NodesModel.update(
-      {"_id", node},
+      {"_id": node},
       {$set: {"position": new_position}}
     );
   },
